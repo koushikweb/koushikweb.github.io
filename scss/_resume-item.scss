@@ -1,9 +1,10 @@
 section.resume-section {
   border-bottom: 1px solid $gray-300;
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
   .resume-item {
-    .resume-content {}
+    .resume-content {
+    }
     .resume-date {
       min-width: none;
     }
@@ -13,16 +14,42 @@ section.resume-section {
   section.resume-section {
     min-height: 100vh;
     .resume-item {
-      .resume-content {}
+      .resume-content {
+      }
       .resume-date {
-        min-width: 18rem;
+        min-width: 288px;
       }
     }
   }
 }
 @media (min-width: 992px) {
   section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
   }
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 88px;
+}
+
+h2 {
+  font-size: 56px;
+}
+
+.subheading {
+  font-size: 21.6px;
+}
+
+.list-social-icons {
+  a {
+    .fa-lg {
+      font-size: 28px;
+    }
+  }
+}
+
+.list-icons {
+  font-size: 48px;
 }
